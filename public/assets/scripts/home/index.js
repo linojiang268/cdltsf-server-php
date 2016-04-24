@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).load(function(){$("#page-preloader").fadeOut(800)})}),$(document).ready(function(){$(".banner").bxSlider({captions:!0,controls:!1,auto:!0,speed:300}),$(".products").bxSlider({infiniteLoop:!1,hideControlOnEnd:!0,slideWidth:240,slideMargin:18,minSlides:1,maxSlides:5,moveSlides:3,pager:!1})});

@@ -1,0 +1,24 @@
+.new-detail-title {
+  text-align: center;
+  font-size: 1.5em;
+  color: #E50112;
+}
+.new-detail-sub-title {
+  text-align: left;
+  font-size: 1em;
+  line-height: 25px;
+  color: #999;
+}
+.new-detail-data {
+  text-align: left;
+  line-height: 35px;
+  margin-top: 20px;
+  img {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+.goBack {
+  float: right;
+}

@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).load(function(){$("#page-preloader").fadeOut(800)})}),$(document).ready(function(){$("a.cert").fancybox({showNavArrows:!0})});

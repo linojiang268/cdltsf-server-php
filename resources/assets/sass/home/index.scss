@@ -1,0 +1,58 @@
+.news-table {
+  td:nth-child(1) div {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    width: inherit;
+  }
+
+  td:nth-child(2) {
+    width: 100px;
+  }
+}
+
+.products {
+  li {
+    text-align: center;
+    vertical-align:middle;
+    border: 1px solid #E1E2E6;
+    height: 240px;
+  }
+
+  span {
+    display: inline-block;
+    width: 1px;
+    height: 180px;
+    vertical-align: middle;
+  }
+
+  img {
+    display: inline !important;
+    max-height: 90%;
+    max-width: 90%;
+    vertical-align: middle;
+  }
+
+  .product-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 46px;
+    line-height: 46px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #7D7D7D;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    width: inherit;
+    padding: 0 18px;
+  }
+}
